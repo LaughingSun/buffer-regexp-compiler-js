@@ -15,19 +15,26 @@ regexp-compiler --source='source.js'
 ~~~~
 
 module use:
+~~~~
 const CRegExp = require( 'regexp-compiler.js' ).ClassFactory( { flavor: 'PERL', library: library } );
+~~~~
+
+   with
 ~~~~
 cre = new RegExpCompiler.RegExp( /(\w+)/ );
 ~~~~
-    or
+
+or
 ~~~~
 cre = new RegExpCompiler.RegExp( '(\\w+)', 'g' );
 ~~~~
-    or
+
+or
 ~~~~
 cre = new RegExpCompiler.RegExp( ).compile( '(\\w+)', { global: true } );
 ~~~~
-    or
+
+or
 ~~~~
 CRegExp = RegExpCompiler.ClassFactory( { flavor: 'PERL', library: library } );
 cre = new CRegExp( /(\w+)/ );
@@ -37,38 +44,44 @@ browser use:
 ~~~~
 <script src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler-min.js"></script>
 ~~~~
-    or
+
+or
 ~~~~
 <script src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler.js"></script>
 ~~~~
-    or
+
+or
 ~~~~
 <script type="module" src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler-min.js"></script>
 ~~~~
-    or
+
+or
 ~~~~
 <script type="module" src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler.js"></script>
 ~~~~
 
-
+with
 ~~~~
 <script>
 cre = new RegExpCompiler.RegExp( /(\w+)/ );
 </script>
 ~~~~
-    or
+
+or
 ~~~~
 <script>
 cre = new RegExpCompiler.RegExp( '(\\w+)', 'g' );
 </script>
 ~~~~
-    or
+
+or
 ~~~~
 <script>
 cre = new RegExpCompiler.RegExp( ).compile( '(\\w+)', { global: true } );
 </script>
 ~~~~
-    or
+
+or
 ~~~~
 <script>
 CRegExp = RegExpCompiler.ClassFactory( { flavor: 'PERL', library: library } );
