@@ -40,7 +40,7 @@ cre = new RegExpCompiler.RegExp( ).compile( '(\\w+)'
 
 or
 ~~~~
-CRegExp = RegExpCompiler.ClassFactory( { flavor: 'PERL', library: library } );
+CRegExp = RegExpCompiler.classFactory( { flavor: 'PERL', library: library } );
 cre = new CRegExp( /(\w+)/ );
 ~~~~
 
