@@ -1,5 +1,7 @@
 # regexp-compiler-js
-Compiles a string, RegExp instance, file, or stream to ecma script.  Supports ECMA5, ECMA2016 and 2017 features as wellas multiple flavors of regular expressions.
+Compiles a string, RegExp instance, file, or stream to ecma script.  
+Supports ECMA5, ECMA2016 and 2017 features as well as multiple flavors 
+of regular expressions.
 
 installations:
 ~~~~
@@ -16,7 +18,8 @@ regexp-compiler --source='source.js'
 
 module use:
 ~~~~
-const CRegExp = require( 'regexp-compiler.js' ).ClassFactory( { flavor: 'PERL', library: library } );
+const CRegExp = require( 'regexp-compiler.js' )
+    .ClassFactory( { flavor: 'PERL', library: library } );
 ~~~~
 
    with
@@ -31,7 +34,8 @@ cre = new RegExpCompiler.RegExp( '(\\w+)', 'g' );
 
 or
 ~~~~
-cre = new RegExpCompiler.RegExp( ).compile( '(\\w+)', { global: true } );
+cre = new RegExpCompiler.RegExp( ).compile( '(\\w+)'
+    , { global: true } );
 ~~~~
 
 or
