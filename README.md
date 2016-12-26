@@ -1,13 +1,13 @@
-# regexp-compiler-js
-Compiles a string, RegExp instance, file, or stream to ecma script.  
-Supports ECMA5, ECMA2016 and 2017 features as well as multiple flavors 
+# buffer-buffer-regexp-compiler-js
+Compiles a string or RegExp instance to ecma-script for use with buffers.  
+Supports ECMA5, ECMA2016, 2017 and PERL features as well as all popular flavors 
 of regular expressions.
 
 installations:
 ~~~~
-> npm install regexp-compiler-js          # for node script project use
-> npm install regexp-compiler-js -save    # for node cli and script project use
-> npm install regexp-compiler-js -global  # for node cli and script global use
+> npm install buffer-regexp-compiler-js          # for node script project use
+> npm install buffer-regexp-compiler-js -save    # for node cli and script project use
+> npm install buffer-regexp-compiler-js -global  # for node cli and script global use
 ~~~~
 
 cli use:
@@ -46,22 +46,22 @@ cre = new CRegExp( /(\w+)/ );
 
 browser use:
 ~~~~
-<script src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler-min.js"></script>
+<script src="https://github.com/LaughingSun/buffer-regexp-compiler-js/build/regexp-compiler-min.js"></script>
 ~~~~
 
 or
 ~~~~
-<script src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler.js"></script>
+<script src="https://github.com/LaughingSun/buffer-regexp-compiler-js/build/regexp-compiler.js"></script>
 ~~~~
 
 or
 ~~~~
-<script type="module" src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler-min.js"></script>
+<script type="module" src="https://github.com/LaughingSun/buffer-regexp-compiler-js/build/regexp-compiler-min.js"></script>
 ~~~~
 
 or
 ~~~~
-<script type="module" src="https://github.com/LaughingSun/regexp-compiler-js/build/regexp-compiler.js"></script>
+<script type="module" src="https://github.com/LaughingSun/buffer-regexp-compiler-js/build/regexp-compiler.js"></script>
 ~~~~
 
 with
