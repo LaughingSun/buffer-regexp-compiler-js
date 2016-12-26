@@ -1,4 +1,4 @@
-# buffer-buffer-regexp-compiler-js
+# buffer-regexp-compiler-js
 Compiles a string or RegExp instance to ecma-script for use with buffers.  
 Supports ECMA5, ECMA2016, 2017 and PERL features as well as all popular flavors 
 of regular expressions.
